@@ -1,0 +1,15 @@
+{
+  "name": "abhinav-gupta-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node --check src/scripts/cinematic-scroll-and-hero.js && node --check src/scripts/projects-experience-and-interactions.js && node --check src/scripts/recruiter-mode-and-command-palette.js"
+  },
+  "devDependencies": {
+    "vite": "^6.4.1"
+  }
+}
